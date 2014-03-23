@@ -1,0 +1,17 @@
+#body-login{
+	background-color: #009560;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#009560), to(#ffffff));
+	background-image: -webkit-linear-gradient(top, #009560, #ffffff);
+	background-image:    -moz-linear-gradient(top, #009560, #ffffff);
+	background-image:      -o-linear-gradient(top, #009560, #ffffff);
+	background-image:         linear-gradient(to bottom, #009560, #ffffff);
+}
+.primary, input.primary[type="submit"], input.primary[type="button"], button.primary, .button.primary{
+	background: #000; 
+}
+.primary:hover, input.primary[type="submit"]:hover, input.primary[type="button"]:hover, button.primary:hover, .button.primary:hover{
+	background: #009560; 
+}
+#navigation, #body-user #header, #body-settings #header, #expanddiv{
+	background-color: #009560;
+}
