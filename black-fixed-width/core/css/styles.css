@@ -1,0 +1,128 @@
+#content-wrapper{
+	width: 990px;
+	position: static;
+	height: auto;
+	margin: auto;
+	padding: 0;
+}
+#body-user #header, #body-settings #header{
+	position: relative;
+	width: 990px;
+	margin: auto;
+	background: #000;
+	border-bottom: 1px solid #a0a0a0;
+}
+#expanddiv{
+	background: #000;
+}
+#controls{
+	position: static;
+	width: 990px;
+	margin: auto;
+}
+#body-user #controls, #body-settings #controls{
+	padding-left: 0;
+	position: relative;
+}
+#controls #dropdown{
+	position: absolute;
+	top: 44px;
+}
+#content{
+	width: 990px !important;
+}
+#fullcalendar{
+	top: 5px !important;
+	width: 990px !important;
+}
+#rightcontent, .rightcontent{
+	position: static;
+}
+#navigation{
+	position: static;
+	width: 990px;
+	margin: auto;
+	background: #000;
+}
+#navigation .wrapper{
+	margin: auto;
+}
+#apps{
+	height: auto;
+	width: auto;
+	overflow: auto;
+	text-align: center;
+}
+#apps li{
+	display: inline-block;
+}
+#navigation li:first-child .icon{
+	padding-top: 0;
+}
+.help-includes{
+	padding-top: 0;
+	width: auto;
+	height: 600px;
+}
+#content #filestable{
+	top: 0;
+}
+#app-navigation{
+
+}
+#app-navigation > ul{
+	overflow: visible;
+}
+#app-content #contactsHeader{
+	position: static;
+}
+#app-content #contactlist{
+	position: static;
+	margin-top: 0;
+}
+#app-settings{
+	position: static;
+	border-bottom: 1px solid #CCCCCC;
+}
+#app-navigation{
+	padding-bottom: 0;
+}
+#contactlist tr > td:not(.tel):not(.adr):not(.actions){
+	min-width: 100px !important;
+	max-width: none !important;
+}
+#contactlist tr > td{
+	padding: 7px 5px;
+}
+#contactlist tr > td.name:not(.tel):not(.adr):not(.actions){
+	min-width: 200px !important;
+}
+#contactsHeader{
+	width: auto;
+}
+#contactlist #contactsHeader > td.actions{
+	position: static;
+	float: none;
+}
+.oc-dialog {
+	top: 100px !important;
+}
+#leftcontent, .leftcontent{
+	float: left;
+}
+#app-settings-content{
+	padding: 10px 10px 0;
+}
+#app-navigation #grouplist li > .utils > .numcontacts{
+	text-align: center;
+}
+#content table.multiselect thead{
+	position: static;
+}
+#body-login{
+	background: #000;
+}
+.primary, input.primary[type="submit"], input.primary[type="button"], button.primary, .button.primary{
+	background: #000 !important;
+	border-color: #000 !important;
+}
